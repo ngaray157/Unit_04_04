@@ -1,0 +1,122 @@
+﻿@/*
+   New Perspectives on HTML5 and CSS3, 7th Edition
+   Tutorial 2
+   Case Problem 4
+   
+   Great Lakescape Lodge Style Sheet
+   Author: Nicole Garay
+   Date:   9/13/19
+   
+   Filename: lake_styles.css
+
+*/
+@charset "utf-8";
+@import "lake_layout.css";
+@font-face{
+   font-family: Champagne;
+   src:url(cac_champagne.ttf) format('ttf'),
+      url(cac_champagne.woff) format('woff'),
+      url(cac_champagne.woff2) format('woff2');
+} 
+@font-face{
+   font-family: Dobkin;
+   src:url(DobkinPlain.ttf) format('ttf'),
+   url(DobkinPlain.woff) format('woff'),
+   url(DobkinPlain.woff2) format('woff2');
+}
+
+/* Structural Styles */
+
+html{
+   background-color:rgb(141,99,52);
+}
+body{
+   background-color:	rgb(222,184,135);
+   font-family: fantasy;
+}
+
+body p{
+   text-align: left;
+   padding-left: 17px;
+   padding-right: 10px;
+   padding-bottom: 2px;
+   padding-top: 5px;
+}
+
+/* Body Header Styles */
+
+h1, h2{
+   font-weight: normal;
+}
+body h1{
+   font-size: 95px;
+   font-family: Champagne, cursive;
+   color:sienna;
+   margin: 0px;
+   padding-left: 15px;
+   padding-bottom: 1px;
+}
+
+/* Navigation Styles */
+
+nav a{
+   text-decoration: none;
+}
+
+nav>ul{
+   list-style-type: none;
+   font-size: 0.9em;
+}
+nav#topLinks a{
+   padding-top: 5px;
+   padding-bottom: 5px;
+}
+
+nav#topLinks a{
+   background-color:rgb(160,82,45);
+   color:white;
+}
+nav#topLinks a:hover, a:active{
+   opacity: 0.7;
+   background-color:rgb(105,105,105)
+}
+
+footer{
+   color:white;
+   background-color:rgb(160,82,45);
+   text-align: center;
+   font-size: 0.9em;
+   padding-top: 5px;
+   padding-bottom: 5px;
+}
+
+/* Article Styles */
+
+
+
+/* Section Styles */
+
+section#leftcol{
+   background-color:rgb(222,184,135); 
+}
+
+section#rightcol{
+   background-color:rgb(205,133,63)
+}
+
+/* AsideStyles */
+
+aside h1{
+   font-size: 2.3em;
+   text-align: center;
+}
+
+aside h2{
+   font-size: 1.5em;
+   text-align: left;
+}
+
+aside#upcoming_events{
+   font-size: 1.2em;
+   text-align: left;
+}

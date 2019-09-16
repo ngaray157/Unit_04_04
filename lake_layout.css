@@ -30,13 +30,15 @@ body > section#leftcol {
 	width: 70%;
 	float: left;
 	margin-left: 0%;
-	margin-right: 4%;
+	margin-right: 15px;
+
 }
 
 body > section#rightcol {
 	width: 24%;
 	float: left;
-	margin-right: 2%;
+	margin-right: 0%;
+	height: 1500px;
 }
 
 footer {
